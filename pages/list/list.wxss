@@ -1,0 +1,57 @@
+/* pages/list/list.wxss */
+.search {
+    border:1px solid #ccc;
+    box-shadow: 0 0 3rpx #ccc;
+    border-radius: 20rpx;
+    margin:10rpx 10rpx;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+}
+.search input {
+    font-size: 30rpx;
+    margin-left:10rpx;
+    width:100%;
+}
+.search image {
+    flex:1;
+}
+.search icon {
+    width: 50rpx;
+}
+.cells {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+}
+.cells .item {
+    display: flex;
+    margin:20rpx 10rpx;
+    flex:1
+}
+.cells .item image{
+    width:200rpx;
+    height:200rpx;
+    margin-right: 10rpx;
+}
+.cells .item .meta {
+    flex:1;
+}
+.cells .item .meta text {
+    font-size: 25rpx;
+    display:block;
+
+}
+.cells .item .meta text:first-child{
+    font-size: 30rpx;
+}
+.cells .item .score {
+    width:50rpx;
+    font-size:25rpx;
+    color:red;
+}
+.loadmore {
+    font-size:15px;
+    color:gray;
+    text-align: center;
+}

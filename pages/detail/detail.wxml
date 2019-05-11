@@ -1,0 +1,37 @@
+<!--pages/detail/detail.wxml-->
+<view class="detail">
+    <image src=""></image>
+    <view>
+        <text class="name">{{}}</text>
+        <text class="phone">电话{{}}</text>
+        <text class="add">地址{{}}</text>
+        <text class="buinesshour">营业时间{{}}</text>
+    </view>
+
+    <!-- 评论区 -->
+    <view class="commit">
+        <view class="item">
+            <text class="user">{{}}</text>
+            <text class="date">{{}}</text>
+            <text class="content">{{}}</text>
+        </view>
+    </view>
+</view>
+
+
+
+
+
+
+
+
+
+
+
+<wxs module="utils">
+    module.exports = {
+        size:function(input) {
+            return input.replace('w.h','100.100')
+        }
+    }
+</wxs>
